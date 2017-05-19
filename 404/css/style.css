@@ -1,0 +1,222 @@
+﻿@import url('reset.css');
+
+@font-face {
+    font-family: Himalaya;
+    src: url(../fonts/Himalaya/Himalaya.ttf);
+}
+
+@font-face {
+    font-family: IskoolaPota;
+    src: url(../fonts/Iskoola/IskoolaPota.ttf);
+}
+
+@font-face {
+    font-family: Merriweather-Regular;
+    src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family: Merriweather Light;
+    src: url(../fonts/Merriweather/Merriweather Light.ttf);
+}
+
+font-face {
+    font-family: Merriweather-Bold;
+    src: url(../fonts/Merriweather/Merriweather-Bold.ttf);
+}
+
+body {
+    background-color: #f8f8f8;
+    margin: auto;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.shell {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#logo-holder h1 {
+    background-color: #ff9311;
+    width: 40px;
+    height: 40px;
+    margin: 123px auto 20px auto;
+}
+
+    #logo-holder h1 a {
+        display: block;
+        color: #fff;
+        font-family: IskoolaPota;
+        font-size: 38px;
+        padding-top: 2px;
+    }
+
+#logo-holder p a {
+    display: block;
+    color: #000;
+    font-family: Merriweather-Regular;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    width: 175px;
+    height: 48px;
+    margin: 0 auto;
+    letter-spacing: 0.09em;
+}
+
+#logo-holder span {
+    display: inherit;
+    font-family: Himalaya;
+    font-size: inherit;
+    text-transform: none;
+    letter-spacing: 0.6em;
+    font-weight: normal;
+}
+
+#error {
+    color: #424242;
+    font-family: Merriweather-Regular;
+    font-weight: bold;
+    font-size: 200px;
+    height: 187px;
+}
+
+#featured-content span {
+    color: #424242;
+    font-family: Merriweather-Regular;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#featured-content form {
+    position: relative;
+    width: 670px;
+    height: 52px;
+    margin: 40px auto;
+    overflow: hidden;
+    font-family: 'Merriweather Light';
+    font: 14px;
+}
+
+#featured-content input {
+    background-color: #fff;
+    width: 648px;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid #dbdbdb;
+}
+
+#featured-content button {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 129px;
+    height: 50px;
+    border: none;
+    border-left: 1px solid #dbdbdb;
+    background: #ff9211;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#featured-content h2 {
+    font-family: Merriweather-Regular;
+    font-size: 20px;
+    color: #424242;
+    margin-bottom: 25px;
+}
+
+#featured-content p {
+    font-family: 'Merriweather Light';
+    font-size: 14px;
+    color: #424242;
+    margin-bottom: 30px;
+}
+
+#featured-content a {
+    text-transform: uppercase;
+    color: #424242;
+}
+
+#featured-content a:before {
+        content: "\f015";
+        font-family: FontAwesome;
+        color: #ff9211;
+        margin-right: 5px;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 100px;
+    color: #999999;
+    padding-bottom: 125px;
+}
+
+#footer ul {
+    margin-bottom: 20px;
+}
+
+#footer li {
+    display: inline;
+    height: 15px;
+    padding: 0 10px;
+    border-right: 1px solid #e3e3e3;
+}
+
+#footer li:last-child {
+    border: none;
+}
+
+#fb a:before {
+    content: "\f09a";
+    font-family: FontAwesome;
+    color: #999999;
+}
+
+#tw a:before {
+    content: "\f099";
+    font-family: FontAwesome;
+    color: #ff9211;
+}
+
+#instgm a:before {
+    content: "\f16d";
+    font-family: FontAwesome;
+    color: #999999;
+}
+#pinter a:before {
+    content: "\f231";
+    font-family: FontAwesome;
+    color: #999999;
+}
+
+#dribb a:before {
+    content: "\f17d";
+    font-family: FontAwesome;
+    color: #999999;
+}
+
+#tumblr a:before {
+    content: "\f173";
+    font-family: FontAwesome;
+    color: #999999;
+}
+
+#footer p{
+    margin-top: 5px;
+    font-family: 'Merriweather Light';
+    font-size: 14px;
+}
+
+#footer p a {
+    font-family: Merriweather-Regular;
+    text-transform: uppercase;
+    color: #ff9211;
+}
+

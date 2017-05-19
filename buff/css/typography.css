@@ -1,0 +1,41 @@
+﻿@font-face{
+    font-family: 'Museo Sans Cyrl 100';
+    src: url(../fonts/MuseoSansCyrl_100.otf);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+h2 {
+color: #263645;
+font-family: 'Brandon Grotesque', Arial, sans-serif;
+font-size: 40px;
+font-weight: normal;
+letter-spacing: 0.05em;
+}
+
+h3 {
+    color: #f94320;
+    font-family: 'Brandon Grotesque';
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+p {
+color: #222222;
+font-family: 'Museo Sans Cyrl 100', Arial, sans-serif;
+font-size: 15px;
+font-weight: normal;
+margin-bottom: 10px;
+line-height: 2;
+text-align: left;
+}
+
+
