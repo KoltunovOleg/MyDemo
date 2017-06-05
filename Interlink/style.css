@@ -10,7 +10,10 @@ Author:		elemis
 	00. RESET
 	01. GENERAL
 	02. BUTTON
+<<<<<<< HEAD
   02.1 TAGS
+=======
+>>>>>>> 6033f7934c62e88b88bd901a8172ffe5a586f5e0
 	03. HEADER
 	04. FIXED MENU
 	05. ISOTOPE PORTFOLIO GRID
@@ -762,6 +765,7 @@ footer ul.tag-list li a:hover {
     margin: 0
 }
 /*-----------------------------------------------------------------------------------*/
+<<<<<<< HEAD
 /*	02.1 TAGS
 /*-----------------------------------------------------------------------------------*/
 ul.tag-list li.color-lime a{
@@ -792,6 +796,8 @@ ul.tag-list li.color-green a{
   background: rgba(101, 196, 196, 0.96);
 }
 /*-----------------------------------------------------------------------------------*/
+=======
+>>>>>>> 6033f7934c62e88b88bd901a8172ffe5a586f5e0
 /*	03. HEADER
 /*-----------------------------------------------------------------------------------*/
 .navbar-header {
@@ -1027,7 +1033,11 @@ ul.tag-list li.color-green a{
 }
 .classic-masonry .isotope .details {
     padding: 18px 20px 20px 20px;
+<<<<<<< HEAD
     /*background: #f5f5f5;*/
+=======
+    background: #f5f5f5;
+>>>>>>> 6033f7934c62e88b88bd901a8172ffe5a586f5e0
     text-align: center;
 }
 .classic-masonry .isotope .details .meta {
@@ -2135,7 +2145,11 @@ textarea {
     background-attachment: scroll !important;
 }
 .parallax.parallax1 {
+<<<<<<< HEAD
     background-image: url(style/images/art//parallax1-3-1.jpg);
+=======
+    background-image: url(style/images/art//parallax1-3.jpg);
+>>>>>>> 6033f7934c62e88b88bd901a8172ffe5a586f5e0
 }
 .parallax.parallax2 {
     background-image: url(style/images/art/parallax2.jpg);
@@ -2836,6 +2850,7 @@ textarea {
 .bp50 {
     padding-bottom: 50px !important
 }
+<<<<<<< HEAD
 /**/
 /**/
 .columns-holder .item{
@@ -2843,6 +2858,8 @@ textarea {
   width: 29%;
   margin-left: 1%;
 }
+=======
+>>>>>>> 6033f7934c62e88b88bd901a8172ffe5a586f5e0
 /*-----------------------------------------------------------------------------------*/
 /*	24. RESPONSIVE
 /*-----------------------------------------------------------------------------------*/
