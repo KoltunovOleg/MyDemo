@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="style/images/favicon.png">
+<title>Контакты Interlink Харьков</title>
+<!-- Bootstrap core CSS -->
+<link href="style/css/bootstrap.min.css" rel="stylesheet">
+<link href="style/css/plugins.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<link href="style/css/color/blue.css" rel="stylesheet">
+<link href="style/type/bebas.css" rel="stylesheet">
+<link href="style/type/fontello.css" rel="stylesheet">
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="style/js/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+</head>
+<body>
+<div id="preloader"><div id="status"><div class="spinner"></div></div></div>
+<div class="body-wrapper">
+  <div class="navbar default">
+    <div class="navbar-header">
+      <div class="container">
+        <div class="basic-wrapper"> <a class="btn responsive-menu pull-right" data-toggle="collapse" data-target=".navbar-collapse"><i></i></a>
+          <div class="navbar-brand"><a href="index.html"><img src="style/images/logo.png" alt="" data-src="style/images/logo.png" data-ret="style/images/logo@2x.png" class="retina" /></a></div>
+        </div>
+        <nav class="collapse navbar-collapse pull-right">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="programs.html">Программы</a></li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle js-activated">Цены</a></li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle js-activated">События</a></li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle js-activated">Фото</a></li>
+            <li class="current"><a href="contacts.html">Контакты</a></li>
+            <li class="dropdown social-dropdown pull-right">
+              <div class="share btn btn-default dropdown-toggle" data-toggle="dropdown"><i class="icon-heart-1"></i></div>
+              <ul class="button-group dropdown-menu dropdown-menu-right share-links">
+                <li><a href="#" class="btn"><i class="icon-s-facebook"></i></a></li>
+                <li><a href="#" class="btn"><i class="icon-s-twitter"></i></a></li>
+              </ul>
+            </li>
+            <!--/social-dropdown -->
+          </ul>
+          <!--/.navbar-nav -->
+        </nav>     
+        <!--/.nav-collapse -->   
+      </div>
+      <!--/.container --> 
+    </div>
+    <!--/.navbar-header --> 
+  </div>
+  <!--/.navbar -->
+  <div class="offset"></div>
+  <div class="dark-wrapper page-title">
+    <div class="container inner">
+      <h1>Наши контакты</h1>
+    </div>
+    <!--/.container -->
+  </div>
+  <!--/.page-title -->
+  
+  <div id="map"></div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1xdEVYy8IZdBKJGQp_QpDWaNQT7ZHGhY&sensor=false&extension=.js"></script> 
+  <script> google.maps.event.addDomListener(window, 'load', init);
+var map;
+function init() {
+    var mapOptions = {
+        center: new google.maps.LatLng(49.9872003502093, 36.233285292560624),
+        zoom: 15,
+        zoomControl: true,
+        zoomControlOptions: {
+            style: google.maps.ZoomControlStyle.DEFAULT,
+        },
+        disableDoubleClickZoom: false,
+        mapTypeControl: true,
+        mapTypeControlOptions: {
+            style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
+        },
+        scaleControl: true,
+        scrollwheel: false,
+        streetViewControl: true,
+        draggable : true,
+        overviewMapControl: false,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+		styles: [{stylers:[{saturation:-100},{gamma:1}]},{elementType:"labels.text.stroke",stylers:[{visibility:"off"}]},{featureType:"poi.business",elementType:"labels.text",stylers:[{visibility:"off"}]},{featureType:"poi.business",elementType:"labels.icon",stylers:[{visibility:"off"}]},{featureType:"poi.place_of_worship",elementType:"labels.text",stylers:[{visibility:"off"}]},{featureType:"poi.place_of_worship",elementType:"labels.icon",stylers:[{visibility:"off"}]},{featureType:"road",elementType:"geometry",stylers:[{visibility:"simplified"}]},{featureType:"water",stylers:[{visibility:"on"},{saturation:50},{gamma:0},{hue:"#50a5d1"}]},{featureType:"administrative.neighborhood",elementType:"labels.text.fill",stylers:[{color:"#333333"}]},{featureType:"road.local",elementType:"labels.text",stylers:[{weight:0.5},{color:"#333333"}]},{featureType:"transit.station",elementType:"labels.icon",stylers:[{gamma:1},{saturation:50}]}]
+		}
+
+    var mapElement = document.getElementById('map');
+    var map = new google.maps.Map(mapElement, mapOptions);
+    var locations = [
+        ['Boudewijn Ostenstraat 2', 49.9872003502093, 36.233285292560624]
+    ];
+    for (i = 0; i < locations.length; i++) {
+        marker = new google.maps.Marker({
+            icon: 'style/images/map-pin.png',
+            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+            map: map
+        });
+    }
+}
+</script>
+  <div class="container inner">
+    <div class="thin">
+      <div class="row text-center services-1">
+        <div class="col-sm-4">
+          <div class="col-wrapper">
+            <div class="icon-wrapper">
+              <div class="icon"><img src="style/images/icons/icon-worldmap@2x.png" data-src="style/images/icons/icon-worldmap.png" data-ret="style/images/icons/icon-worldmap@2x.png" class="retina" alt="Адрес курсов иностранных языков Интерлинк" /></div>
+            </div>
+            <div class="text-wrapper">
+              <p>61003 г. Харьков<br />
+                ул. Кооперативная, 7, к.410</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="col-wrapper">
+            <div class="icon-wrapper">
+              <div class="icon"><img src="style/images/icons/icon-phone.png" data-src="style/images/icons/icon-phone.png" data-ret="style/images/icons/icon-phone@2x.png" class="retina" alt="Связяться с Interlink" /> </div>
+            </div>
+            <div class="text-wrapper">
+              <p><span>+380 (057) 75 09 057 (с 9 до 17)</span><br />
+                <span>+380 50 16 77 052 (с 8 до 20)</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="col-wrapper">
+            <div class="icon-wrapper">
+              <div class="icon"><img src="style/images/icons/icon-openmail.png" data-src="style/images/icons/icon-openmail.png" data-ret="style/images/icons/icon-openmail@2x.png" class="retina" alt="Напишите нам" /> </div>
+            </div>
+            <div class="text-wrapper">
+              <p> <a class="nocolor" href="mailto:interlink_2008@ukr.net">interlink_2008@ukr.net</a> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.services -->
+      
+      <!--div class="divide70"></div>
+      <h3 class="section-title text-center">Get in Touch</h3>
+      <p class="text-center">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+      <div class="divide20"></div>
+      <div class="form-container">
+        <div class="response alert alert-success"></div>
+        <form class="forms" action="contact/form-handler.php" method="post">
+          <fieldset>
+            <ol class="row">
+              <li class="form-row text-input-row name-field col-sm-6">
+                <label><i class="icon-user"></i></label>
+                <input type="text" name="name" class="text-input defaultText required" title="Name (Required)"/>
+              </li>
+              <li class="form-row text-input-row email-field col-sm-6">
+                <label><i class="icon-mail-alt"></i></label>
+                <input type="text" name="email" class="text-input defaultText required email" title="Email (Required)"/>
+              </li>
+              <li class="form-row text-input-row website-field col-sm-6">
+                <label><i class="icon-globe"></i></label>
+                <input type="text" name="website" class="text-input defaultText" title="Website (Optional)"/>
+              </li>
+              <li class="form-row text-input-row subject-field col-sm-6">
+                <label><i class="icon-doc-text-inv"></i></label>
+                <input type="text" name="subject" class="text-input defaultText" title="Subject (Optional)"/>
+              </li>
+              <li class="form-row text-area-row col-sm-12">
+                <textarea name="message" class="text-area required"></textarea>
+              </li>
+              <li class="form-row hidden-row">
+                <input type="hidden" name="hidden" value="" />
+              </li>
+              <li class="nocomment">
+                <label>Leave This Field Empty</label>
+                <input id="nocomment" value="" name="nocomment" />
+              </li>
+              <li class="button-row col-sm-12">
+                <input type="submit" value="Submit" name="submit" class="btn btn-submit bm0" />
+              </li>
+            </ol>
+            <input type="hidden" name="v_error" id="v-error" value="Required" />
+            <input type="hidden" name="v_email" id="v-email" value="Enter a valid email" />
+          </fieldset>
+        </form>
+      </div-->
+      <!-- /.form-container --> 
+    </div>
+    <!--/.thin -->
+  </div>
+  <!--/.container -->
+  <footer class="footer black-wrapper">
+    <div class="container inner">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="widget">
+            <h4 class="widget-title">Программы</h4>
+            <ul class="circled">
+              <li><a href="#">Подготовка к ЗНО</a></li>
+              <li><a href="#">Группы для детей и подростков</a></li>
+              <li><a href="#">Курсы английского языка</a></li>
+              <li><a href="#">Курсы немецкого языка</a></li>
+              <li><a href="#">Курсы испанского языка</a></li>
+              <li><a href="#">Курсы французского языка</a></li>
+              <li><a href="#">Курсы итальянского языка</a></li>
+              <li><a href="#">Разговорный клуб</a></li>
+            </ul>
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-sm-4">
+          <div class="widget">
+            <h3 class="widget-title">О нас</h3>
+            <p>Наша цель – повышение уровня знания западноевропейских языков и культур.</p>
+            <p>У нас знакомятся с праздниками, обычаями и традициями других стран.</p>
+            <div class="divide5"></div>
+            <ul class="social">
+              <li><a href="#"><i class="icon-s-twitter"></i></a></li>
+              <li><a href="#"><i class="icon-s-facebook"></i></a></li>
+            </ul>
+          </div>
+          <!-- /.widget --> 
+        </div>
+        <!-- /column -->
+        
+        <div class="col-sm-4">
+          <div class="widget">
+            <h3 class="widget-title">Наши контакты</h3>
+            <p>"Центр иностранных языков "Интерлинк" находится в здании Колледжа связи на пересечении переулка Плетневский и улицы Кооперативной.</p>
+            <div class="contact-info"> 
+              <i class="icon-location"></i> 61003 г. Харьков <br />
+              ул. Кооперативная 7, к.410 <br />
+              <i class="icon-phone"></i>+380 (057) 75 09 057 <br />
+              <i class="icon-mobile"></i>+380 50 16 77 052 <br />
+              <i class="icon-mail"></i> <a href="first.last@email.com">interlink_2008@ukr.net</a> </div>
+            </div>
+          </div>
+        <!-- /column -->
+
+      </div>
+      <!-- /.row --> 
+    </div>
+    <!-- .container -->
+    
+    <div class="sub-footer">
+      <div class="container">
+        <p class="pull-left">© 2017 "Центр иностранных языков Интерлинк". Theme by elemis.</p>
+        <ul class="footer-menu pull-right">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="programs.html">Программы</a></li>
+          <li><a href="price.html">Цены</a></li>
+          <li><a href="events.html">События</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </div>
+       <div class="container">
+        <p class="pull-left">Development of Ol.Koltunoff</p>
+        <div class="footer-menu pull-right">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- /footer -->
+</div>
+<!--/.body-wrapper --> 
+<script src="style/js/jquery.min.js"></script> 
+<script src="style/js/bootstrap.min.js"></script> 
+<script src="style/js/plugins.js"></script> 
+<script src="style/js/scripts.js"></script>
+</body>
+</html>
