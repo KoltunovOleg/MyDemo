@@ -10,10 +10,7 @@ Author:		elemis
 	00. RESET
 	01. GENERAL
 	02. BUTTON
-<<<<<<< HEAD
   02.1 TAGS
-=======
->>>>>>> 6033f7934c62e88b88bd901a8172ffe5a586f5e0
 	03. HEADER
 	04. FIXED MENU
 	05. ISOTOPE PORTFOLIO GRID
@@ -372,8 +369,8 @@ h3 span.meta:before {
     color: #ef5f60
 }
 .inner {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 .inner-small {
     padding-top: 50px;
@@ -419,8 +416,8 @@ ul.circled li:before {
 hr {
     border: none;
     border-bottom: 2px solid rgba(0,0,0,0.11);
-    padding-bottom: 40px;
-    margin-bottom: 70px;
+    /*padding-bottom: 40px;*/
+    margin-bottom: 35px;
 }
 .alert {
     padding-bottom: 13px
@@ -765,7 +762,6 @@ footer ul.tag-list li a:hover {
     margin: 0
 }
 /*-----------------------------------------------------------------------------------*/
-<<<<<<< HEAD
 /*	02.1 TAGS
 /*-----------------------------------------------------------------------------------*/
 ul.tag-list li.color-lime a{
@@ -796,8 +792,27 @@ ul.tag-list li.color-green a{
   background: rgba(101, 196, 196, 0.96);
 }
 /*-----------------------------------------------------------------------------------*/
-=======
->>>>>>> 6033f7934c62e88b88bd901a8172ffe5a586f5e0
+/*	02.2 breadcrumbs
+/*-----------------------------------------------------------------------------------*/
+.breadcrumbs{
+  padding-top: 20px;
+  margin-bottom: -10px;
+}
+.breadcrumbs li{
+  float: left;
+  margin-right: 30px;
+}
+
+.breadcrumbs li:not(.current) a{
+ color: rgba(104, 156, 210, 0.96);
+}
+.breadcrumbs li:not(.current) a:hover{
+ color: #4470cf;
+}
+.breadcrumbs li.current a{
+ color: rgba(93, 93, 93, 0.96);
+}
+/*-----------------------------------------------------------------------------------*/
 /*	03. HEADER
 /*-----------------------------------------------------------------------------------*/
 .navbar-header {
@@ -1033,11 +1048,7 @@ ul.tag-list li.color-green a{
 }
 .classic-masonry .isotope .details {
     padding: 18px 20px 20px 20px;
-<<<<<<< HEAD
     /*background: #f5f5f5;*/
-=======
-    background: #f5f5f5;
->>>>>>> 6033f7934c62e88b88bd901a8172ffe5a586f5e0
     text-align: center;
 }
 .classic-masonry .isotope .details .meta {
@@ -2145,11 +2156,7 @@ textarea {
     background-attachment: scroll !important;
 }
 .parallax.parallax1 {
-<<<<<<< HEAD
     background-image: url(style/images/art//parallax1-3-1.jpg);
-=======
-    background-image: url(style/images/art//parallax1-3.jpg);
->>>>>>> 6033f7934c62e88b88bd901a8172ffe5a586f5e0
 }
 .parallax.parallax2 {
     background-image: url(style/images/art/parallax2.jpg);
@@ -2160,17 +2167,9 @@ textarea {
 .parallax.parallax4 {
     background-image: url(style/images/art/parallax2-1.jpg);
 }
-/*.parallax.parallax4:before {
-    background: url(style/images/art/parallax4.jpg) fixed no-repeat center center;
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: .4;
-  }*/
+.parallax.parallax5 {
+    background-image: url(style/images/art/london-pr.jpg);
+}
 /*-----------------------------------------------------------------------------------*/
 /*	20. SOCIAL ICONS
 /*-----------------------------------------------------------------------------------*/
@@ -2850,7 +2849,6 @@ textarea {
 .bp50 {
     padding-bottom: 50px !important
 }
-<<<<<<< HEAD
 /**/
 /**/
 .columns-holder .item{
@@ -2858,8 +2856,6 @@ textarea {
   width: 29%;
   margin-left: 1%;
 }
-=======
->>>>>>> 6033f7934c62e88b88bd901a8172ffe5a586f5e0
 /*-----------------------------------------------------------------------------------*/
 /*	24. RESPONSIVE
 /*-----------------------------------------------------------------------------------*/
